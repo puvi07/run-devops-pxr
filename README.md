@@ -13,7 +13,8 @@ See the overall picture. You can see that we will have 3 microservices which we 
 
 ![Overall Picture of Repository](https://user-images.githubusercontent.com/1147445/105671396-b152f580-5ef3-11eb-8f3b-7f9f7c9c4d24.png)
 
-### Shopping MVC Client Application
+### Shopping MVC Client Application ####
+
 First of all, we are going to develop Shopping MVC Client Application For Consuming Api Resource which will be the Shopping.Client Asp.Net MVC Web Project. But we will start with developing this project as a standalone Web application which includes own data inside it. And we will add container support with DockerFile, push docker images to Docker hub and see the deployment options like “Azure Web App for Container” resources for 1 web application.
 ### Shopping API Application
 After that we are going to develop Shopping.API Microservice with MongoDb and Compose All Docker Containers.
